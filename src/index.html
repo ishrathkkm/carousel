@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Flipkart test</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="app.css" />
+    </head>
+    <body>
+        <div id="app">
+            <div id="cart-container">
+                <div id="products">
+                    <div class="product-header">
+                        <span><b>MY CART</b></span>
+                        <span class="pincode">
+                            <input type="text">
+                            <span class="change">Change</span>
+                        </span>
+                    </div>
+                    <table id="item-container">
+
+                    </table>
+                </div>
+                <div id="price">
+                    <div class="product-header">
+                        PRICE DETAILS
+                    </div>
+                    <div>
+                        <div>
+                            <table class="price-table">
+                                <tr>
+                                    <td>Price (<span id="totalItem">0</span> items)</td>
+                                    <td id="priceDiv"></td>
+                                </tr>
+                                <tr>
+                                        <td>Delivery Charges</td>
+                                        <td id="deliveryDiv">
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Amount Payable</td>
+                                        <td id="amountDiv"></td>
+                                    </tr>
+                                    <t>
+                                        <td colspan="2">
+                                            Your Total saving on this order <span id="saveDiv">0</span>
+                                        </td>
+                                    </t>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
